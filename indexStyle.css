@@ -1,0 +1,128 @@
+header {
+    background-color: purple;
+    height: 80px;
+    width: 100%;
+    border: 1px solid transparent;
+}
+
+.navbar .active{
+    background-color: lightgrey;
+    border: none;
+}
+
+.navbar a{
+    font-size: 1.25em;
+}
+
+.boldNavItem{
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+ border-bottom: 2px solid black;
+}
+
+#profileImage{
+    height: 200px;
+}
+
+main{
+    color: white;
+    background-color: grey;
+}
+
+#about{
+    background-color: rgb(172, 169, 169) ;
+}
+
+.row{
+    padding: 20px;
+}
+
+hr{
+    width: 70%;
+    border-width: 4px;
+    border-color: white;
+}
+
+#portfolio{
+    background-color: rgb(216, 206, 206) ;
+    border-bottom: 1px solid rgb(196, 190, 190);
+}
+
+#portfolio h1{
+    color: grey;
+    padding: 10px;
+}
+
+#portfolio hr{
+    border-color:grey;
+    width: 50%;
+}
+
+#contact{
+    background-color:  rgb(216, 206, 206) ;
+}
+
+.form-item{
+    display: block;
+    background-color:  rgb(216, 206, 206) ;
+    border: none;
+    padding: 15px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+textarea, input:focus { 
+    outline: none;
+}
+
+label{
+    padding: 0 15px;
+    color: purple;
+    font-weight: bold;
+}
+
+
+
+footer > #below{
+    background-color: purple;
+}
+
+footer > #above{
+    background-color: rgb(172, 169, 169) ;
+}
+
+.btn-circle{
+   
+    border-radius: 50% !important;
+    background-color: rgb(172, 169, 169) ;
+    border: 1px solid white;
+}
+
+#above h4, #below h5{
+    color: white;
+}
+
+#above a{
+    color: purple;
+}
+
+#below{
+    height: 100px;
+}
+
+#below h5{
+    padding: 40px;
+}
+
+header{
+    position: fixed;
+    height: 70px;
+    top: 0;
+    z-index: 4;
+}
+
+#main-div{
+   margin-top: 70px;
+}
+
+

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="indexStyle.css">
+
+    <script src="logic.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Personal Portfolio</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+        <nav class= "container navbar navbar-expand-xl navbar-light navbar-inverse navbar-fixed-top">
+            <a class="navbar-brand" href="#">Yulia</a>
+            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link scrollable" href="#about">About
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollable" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollable" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="main-div">
+        <main class="bg-secondary">
+            <div id="about" class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row">
+                            <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding
+                                strategy, and creative direction; devoted to functional programming and information architecture.</p>
+                        </div>
+                        <div class="clearfix">
+                            <hr class="float-right"></hr>
+                        </div>
+                        <div class="row">
+                            <h3>Web Developer - User Experience Designer - Graphic Artis</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img id="profileImage" class="img-fluid, rounded-circle" src=" http://www.iamvisible.org/wp-content/uploads/2016/01/women-icon.png "
+                            alt="profileimage ">
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio" class="container">
+                <h1 class="text-center">Portfolio</h1>
+                <hr>
+                <div class="row" id="images">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="http://www.sait.ca/Images/About%20SAIT/Who%20Are%20We/News%20and%20Events/Media%20centre/Johnson-Cobbe-Energy-Centre.jpg"
+                                class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="http://www.sait.ca/Images/About%20SAIT/Who%20Are%20We/News%20and%20Events/Media%20centre/Johnson-Cobbe-Energy-Centre.jpg"
+                                class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="http://www.sait.ca/Images/About%20SAIT/Who%20Are%20We/News%20and%20Events/Media%20centre/Johnson-Cobbe-Energy-Centre.jpg"
+                                class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="http://www.sait.ca/Images/About%20SAIT/Who%20Are%20We/News%20and%20Events/Media%20centre/Johnson-Cobbe-Energy-Centre.jpg"
+                                class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-item" name="" id="name" aria-describedby="helpId" placeholder="Name">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-item" name="" id="email" aria-describedby="helpId" placeholder="Email Address">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" class="form-item" name="" id="phone" aria-describedby="helpId" placeholder="Phone Number">
+                            <label for="message">Message</label>
+                            <textarea class="form-item" row="5" name="" id="message" placeholder="Message"></textarea>
+                            <br>
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p> Want to get in touch with me? Be it to request more info about myself or my experience, to ask for
+                            my resume, tips on how to solve your sudoku, random questions about the universe and the meaning
+                            of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop
+                            me a line anytime.</p>
+                        <br>
+                        <br>
+                        <p>I promise to reply A.S.A.P.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="above">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <h4 class="mx-auto">ABOUT THIS PAGE</h4>
+                            </div>
+                            <div class="row">
+                                <h4 class="mx-auto">Made with
+                                    <i class="fas fa-coffee"></i> and
+                                    <i class="fas fa-music"></i> by
+                                    <a href="#">Yulia</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <h4 class="mx-auto">AROUNT THE WEB</h4>
+                            </div>
+                            <div class="row">
+                                <div class="mx-auto">
+                                    <button class="btn btn-circle">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </button>
+                                    <button class="btn btn-circle">
+                                        <i class="fab fa-twitter"></i>
+                                    </button>
+                                    <button class="btn btn-circle">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="below">
+                <div class="container">
+                    <h5 class="text-center">Yulia © 2018. All Rights Reversed</h5>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
